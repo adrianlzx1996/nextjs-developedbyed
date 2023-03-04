@@ -9,7 +9,6 @@ export default async function Home() {
 
 	return (
 		<main>
-			<h1 className={"text-amber-500"}>Thank you, Next</h1>
 			<div className="grid gap-16 grid-cols-fluid">
 				{res.results.map(movie => (
 						<Movie key={movie.id}
